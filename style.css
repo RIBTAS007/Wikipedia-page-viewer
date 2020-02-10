@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  font-family: Raleway;
+  background-color: #8942f4;
+  font-size: 100%;
+}
+
+#cncl {
+  background-color: #717171;
+  color: white;
+}
+
+.page_footer {
+  clear: both;
+  text-align: center;
+  padding: 5em 0em 0em 0em;
+}
+.page_footer a {
+  text-decoration: none;
+  color: #566473;
+}
+.page_footer a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  position: relative;
+  padding: 1em 2em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  margin: 1em 0.8em;
+}
+.button.type2 {
+  color: black;
+}
+.button.type2.type2:after, .button.type2.type2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  transition: all 0.3s ease;
+  transform: scale(0.7);
+}
+.button.type2.type2:hover:before {
+  top: 0;
+  transform: scale(1.1);
+}
+.button.type2.type2:hover:after {
+  transform: scale(1.1);
+}
+
+/** hidden search field */
+#searchbar {
+  display: none;
+  float: left;
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid #d8d8d8;
+  padding-left: 25px;
+  padding-right: 10px;
+  z-index: 9999;
+  background: #fff;
+  -webkit-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#searchaterm {
+  display: block;
+  width: 80%;
+  border: 0;
+  outline: none;
+  padding: 0;
+  height: 60px;
+  line-height: 0%;
+  font-size: 3em;
+  font-weight: bold;
+  color: #676767;
+  float: left;
+}
+
+#search {
+  display: block;
+  float: right;
+  background: none;
+  color: #717171;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+input, textarea {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  font-size: 1.5em;
+  color: #000;
+  text-decoration: none;
+}
+
+.hding {
+  font-size: 50px;
+  color: #000;
+  text-align: center;
+}
+
+#output {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  font-family: Raleway;
+  font-size: 100%;
+}
+
+li {
+  list-style-type: none;
+  border: 4px solid #8942f4;
+  border-style: hidden hidden solid hidden;
+  -webkit-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+}
