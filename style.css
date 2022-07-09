@@ -2,15 +2,16 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
+  /* width: 100%;
+  /* height: 100vh; */
+   display: flex;
   justify-content: top;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; 
   font-family: Raleway;
-  background-color: #8942f4;
-  font-size: 100%;
+  background-color: #FDEFF4;
+  /* background-color: #000; */
+  font-size: 100%; 
 }
 
 #cncl {
@@ -21,7 +22,7 @@ body {
 .page_footer {
   clear: both;
   text-align: center;
-  padding: 5em 0em 0em 0em;
+  padding: 5em 0em 9em 0em;
 }
 .page_footer a {
   text-decoration: none;
@@ -145,4 +146,31 @@ li {
   -webkit-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
   box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#searchaterm, #searchbar{
+  background-color: pink;
+}
+
+#cncl{
+  color:pink;
+  background-color: #000;
+}
+
+#search {
+  color:#000;
+}
+
+.fly{
+
+  margin-top: 60px;
+  border-radius: 10px;
+  background-color: pink;
+  width: 70%;
+  /* height: 100vh; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.row{
+  text-align: center;
 }
